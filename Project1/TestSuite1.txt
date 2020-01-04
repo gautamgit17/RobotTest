@@ -1,0 +1,10 @@
+*** Settings ***
+Library           SeleniumLibrary
+
+*** Test Cases ***
+Test1
+    Open Browser    https://play.fresco.me/profile    chrome
+    Close Browser
+
+Test
+    Open Browser    https://katakura-wblc.nl/expat-meetup-amsterdam-dutch-language-pub/    chrome
